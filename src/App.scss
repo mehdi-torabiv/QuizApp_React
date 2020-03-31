@@ -1,5 +1,15 @@
 body {
   .App {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      margin: 0;
+      background: transparent;
+      color: black;
+    }
     margin-top: 0.5rem;
     overflow: hidden;
     .QuizeSec {
@@ -28,6 +38,12 @@ body {
         h4 {
           background: transparent;
         }
+      }
+    }
+    .questionsSec {
+      h6 {
+        margin: 0.5rem 0;
+        margin-left: 0.4rem;
       }
     }
   }
