@@ -4,7 +4,11 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h3 className="text-center">Build React Quize Application.</h3>
+        <div className="QuizeSec">
+          <div className="HeaderPage">
+            <h4>Quiz App</h4>
+          </div>
+        </div>
       </div>
     );
   }
