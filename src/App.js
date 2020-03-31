@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import "./App.scss";
 import Querys from './assets/Querys/Querys';
+import QuestionBox from './Components/QuestionBox';
 class App extends Component {
   state = {
     questionBank: []
@@ -26,7 +27,9 @@ class App extends Component {
           <div className="questionsSec">
             {this.state.questionBank.length > 0 &&
               this.state.questionBank.map(({ questions, answers, correct, questionId }) =>
-                <h6>{questions}</h6>)}
+                (
+                  <QuestionBox question={questions} options={answers} key={questionId} />
+                ))}
           </div>
         </div>
       </div>
