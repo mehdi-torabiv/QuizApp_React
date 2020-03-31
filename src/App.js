@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import "./App.scss";
+import Querys from './assets/Querys/Querys';
 class App extends Component {
   render() {
     return (

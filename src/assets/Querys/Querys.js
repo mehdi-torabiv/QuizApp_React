@@ -22,6 +22,12 @@ const Qbank = [
     "answers": ["UI", "backend", "Security", "All of them"],
     "correct": "UI",
     "questionId": 4
+  },
+  {
+    "questions": "Do you like this app?",
+    "answers": ["No", "Yeah", "No idea", "HaHa"],
+    "correct": "Yeah",
+    "questionId": 5
   }
 ]
 export default (n = 5) =>
