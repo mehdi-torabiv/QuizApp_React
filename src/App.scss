@@ -22,14 +22,14 @@ body {
       transform: translate(-50%, -8%);
       justify-content: center;
       width: 500px;
-      height: auto;
+      height: 470px;
       background: rgb(255, 255, 255);
       border: 1px solid black;
       .HeaderPage {
         margin: 0.1rem;
         background: rgb(6, 112, 126);
         height: 3rem;
-        color: white;
+        color: white !important;
         padding-top: 0.3rem;
         justify-content: center;
         vertical-align: middle;
@@ -37,6 +37,7 @@ body {
         border-radius: 5px 5px 0 0;
         h4 {
           background: transparent;
+          color: white;
         }
       }
     }

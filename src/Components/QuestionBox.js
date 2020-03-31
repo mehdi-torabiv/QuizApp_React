@@ -14,7 +14,10 @@ const QuestionBox = (props) => {
                 {answer.map((text, index) => (
                     <button key={index} className="answerBtn" onClick={() => {
                         setAnswer([text]);
-                    }}>{text}</button>
+                        props.SelectedAnswer(text);
+                    }}>
+                        {text}
+                    </button>
                 ))}
             </div>
         </div>
