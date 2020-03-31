@@ -7,4 +7,16 @@
     border-radius: 0.2rem;
     background-color: rgba(236, 236, 236, 0.452);
   }
+  .answers {
+    .answerBtn {
+      margin: 0.3rem 0.2rem;
+      border-radius: 3px;
+      outline: none;
+      border: white solid 1px;
+      background-color: orange;
+      padding: 0.2rem 0.4rem;
+      display: inline-block;
+      align-items: center;
+    }
+  }
 }
